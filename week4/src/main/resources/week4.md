@@ -2,6 +2,16 @@
 
 * 第2题（必做）思考有多少种方式，在 main 函数启动一个新线程：
   * 见示例代码中的：[CreateThreadDemo](..\java\com\java\kaige\week4\CreateThreadDemo.java)
+  * 方式1：实现Thread，Join方法阻塞当前线程以等待子线程执行完毕
+  * 方式2：实现Runnable接口，Join方法阻塞当前线程以等待子线程执行完毕
+  * 方式3： 通过FutureTask,实现Callable接口
+  * 方式4： 通过ExecutorService线程池,实现Callable接口
+  * 方式5： 通过Executor线程池,实现Callable接口
+  * 方式7: 通过ScheduledExecutorService方式
+  * 方式8: 通过Spring ThreadPoolTaskExecutor方式
+  * 方式9: 通过Spring SimpleAsyncTaskExecutor
+  * 方式10: 通过Spring ConcurrentTaskScheduler方式
+  * 方式11: 通过Timer方式
 
 * 第3题（选做）列举常用的并发操作 API 和工具类：
   * API：
